@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SsdtHook", "SsdtHook\SsdtHook.vcxproj", "{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EncryptPayload", "EncryptPayload\EncryptPayload.vcxproj", "{0CBBCCF5-47C7-44DC-BA08-06B36B54B385}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Debug|ARM64.Build.0 = Debug|ARM64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Debug|x64.ActiveCfg = Debug|x64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Debug|x64.Build.0 = Debug|x64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Debug|x64.Deploy.0 = Debug|x64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Debug|x86.ActiveCfg = Debug|x64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Debug|x86.Build.0 = Debug|x64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Debug|x86.Deploy.0 = Debug|x64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Release|ARM64.ActiveCfg = Release|ARM64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Release|ARM64.Build.0 = Release|ARM64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Release|ARM64.Deploy.0 = Release|ARM64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Release|x64.ActiveCfg = Release|x64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Release|x64.Build.0 = Release|x64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Release|x64.Deploy.0 = Release|x64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Release|x86.ActiveCfg = Release|x64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Release|x86.Build.0 = Release|x64
+		{7EC69211-EB1C-4DDA-A218-FF4B93DBA798}.Release|x86.Deploy.0 = Release|x64
+		{0CBBCCF5-47C7-44DC-BA08-06B36B54B385}.Debug|ARM64.ActiveCfg = Debug|x64
+		{0CBBCCF5-47C7-44DC-BA08-06B36B54B385}.Debug|ARM64.Build.0 = Debug|x64
+		{0CBBCCF5-47C7-44DC-BA08-06B36B54B385}.Debug|x64.ActiveCfg = Debug|x64
+		{0CBBCCF5-47C7-44DC-BA08-06B36B54B385}.Debug|x64.Build.0 = Debug|x64
+		{0CBBCCF5-47C7-44DC-BA08-06B36B54B385}.Debug|x86.ActiveCfg = Debug|Win32
+		{0CBBCCF5-47C7-44DC-BA08-06B36B54B385}.Debug|x86.Build.0 = Debug|Win32
+		{0CBBCCF5-47C7-44DC-BA08-06B36B54B385}.Release|ARM64.ActiveCfg = Release|x64
+		{0CBBCCF5-47C7-44DC-BA08-06B36B54B385}.Release|ARM64.Build.0 = Release|x64
+		{0CBBCCF5-47C7-44DC-BA08-06B36B54B385}.Release|x64.ActiveCfg = Release|x64
+		{0CBBCCF5-47C7-44DC-BA08-06B36B54B385}.Release|x64.Build.0 = Release|x64
+		{0CBBCCF5-47C7-44DC-BA08-06B36B54B385}.Release|x86.ActiveCfg = Release|Win32
+		{0CBBCCF5-47C7-44DC-BA08-06B36B54B385}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CFB8485-EC98-4A94-B976-A6656C618145}
+	EndGlobalSection
+EndGlobal
