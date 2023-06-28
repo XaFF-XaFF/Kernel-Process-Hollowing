@@ -17,6 +17,13 @@ void decrypt(unsigned char* data, size_t length, const char* key) {
 
 int main(int argc, char* argv[])
 {
+	if (argc != 3)
+	{
+		printf("[+] Usage: EncryptPayload.exe PATH KEY\n");
+		printf("[+] Example: EncryptPayload.exe C:\\Users\\Admin\\payload.exe 0123456789\n");
+		return -1;
+	}
+
 	const char* payloadPath = argv[1];
 	const char* encryptionKey = argv[2];
 
@@ -26,7 +33,7 @@ int main(int argc, char* argv[])
 
 	encrypt(payloadBuffer.data(), payloadBuffer.size(), encryptionKey);
 
-	std::ofstream outputFile("encrypted.bin", std::ios::binary);
+	std::ofstream outputFile("payload.bin", std::ios::binary);
 	if (!outputFile.is_open()) {
 		printf("[-] Failed!\n");
 		return FALSE;
